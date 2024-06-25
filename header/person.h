@@ -10,6 +10,7 @@ private:
 public:
     Person(int age, std::string firstName, std::string lastName);
     void display();
+    virtual ~Person() = default;
 };
 
 #endif
