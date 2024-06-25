@@ -9,6 +9,7 @@ private:
     std::string mLastName;
 public:
     Person(int age, std::string firstName, std::string lastName);
+    Person() = default;
     void display();
     virtual ~Person() = default;
 };
