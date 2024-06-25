@@ -5,7 +5,8 @@
 class Person{
 private:
     int mAge;
-    std::string mName;
+    std::string mFirstName;
+    std::string mLastName;
 public:
     Person(int age, std::string name);
     void display();
