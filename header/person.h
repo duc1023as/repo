@@ -8,7 +8,7 @@ private:
     std::string mFirstName;
     std::string mLastName;
 public:
-    Person(int age, std::string name);
+    Person(int age, std::string firstName, std::string lastName);
     void display();
 };
 
