@@ -3,8 +3,8 @@
 #include <iostream>
 #include <string>
 
-Person::Person(int age, std::string name) : mAge(age), mName(name) {}
+Person::Person(int age, std::string firstName, std::string lastName) : mAge(age), mFirstName(firstName), mLastName(lastName) {}
 
 void Person::display(){
-    std::cout<<"Name: "<<mName<<" ,Age: "<<mAge<<"\n";
+    std::cout<<"First Name: "<<mFirstName<<"Last Name: "<<mLastName<<" ,Age: "<<mAge<<"\n";
 }
